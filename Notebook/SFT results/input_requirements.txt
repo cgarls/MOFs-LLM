@@ -1,0 +1,85 @@
+You are a materials scientist and your task is to design MOFs materials to meet the specific hydrogen storage properties UG at 77k 100bar to 160k 5bar operating conditions. Hydrogen storage performance UG is divided into five types: Bad, Poor, Average, Good, Excellent, they correspond to the UG performance values of (0-9.775), (9.776-14.63), (14.63-19.69), (19.69-25.91), and (25.91-60), respectively, in wt%. MOFs consists of metal nodes, organic nodes and organic edges according to certain topological laws. Organic nodes and organic edges together constitute the majority of MOFs ligands, while metal nodes represent clusters of metal nuclei containing partial distributors. I have given you two lists, one with information on metal nodes, organic nodes, and organic edges, through which you can learn some key information and properties, and the second with a list of performance evaluations of MOFs with a small number of these three building blocks, which you can use to predict and select the right building blocks.
+
+List 1: Information about metal nodes, organic nodes, and organic edges
+Metal nodes contain: sym_10_mc_10 metal element Zr, there are 6, metal coordination number is 8, nuclear cluster coordination 10 ligands, nuclear cluster contains non-metallic elements for 32 O
+sym_12_mc_11 has 6 metal elements Zr, 8 metal coordination number, 12 ligands in the cluster, and 32 O in the cluster containing non-metallic elements
+sym_16_mc_14 has 6 metal elements Zr, 8 metal coordination number, 6 ligands in the cluster, and 32 O in the cluster containing non-metallic elements
+sym_8_mc_9 has 6 metal elements Zr, 8 metal coordination number, 8 coordination ligands in the cluster, and 32 O nuclear cluster containing non-metallic elements
+sym_9_mc_5 has 6 metal elements Zr, 8 metal coordination number, 6 ligands in the cluster, and 32 O in the cluster containing non-metallic elements
+The metal element in sym_4_mc_1 is Zn, there is 1, the metal coordination number is 4, the nuclear cluster is coordinated with 4 ligands, and the nuclear cluster contains 4 N non-metallic elements
+The metal element in sym_6_mc_3 has 4 Zn, 4 metal coordination number, 6 ligands in the cluster, and 12 O non-metallic elements in the cluster
+The metal element in sym_8_mc_8 is Mn with 4, the metal coordination number is 5, the cluster has 8 ligands, and the cluster contains 32 N non-metallic elements
+The metal element of sym_24_mc_13 is Cu, there are 24, the metal coordination number is 4, the nuclear cluster has 24 ligands, and the nuclear cluster contains 96 O non-metallic elements
+sym_3_mc_0 has 3 metal elements Cu, 2 metal coordination number, 3 ligands in the cluster, and 6 N in the cluster containing non-metallic elements
+The metal element of sym_5_mc_2 is Cu, there are 2, the metal coordination number is 4, the nuclear cluster is coordinated by 4 ligands, and the nuclear cluster contains 8 O non-metallic elements
+sym_7_mc_4 has 3 metal elements, 5 metal coordination number, 6 ligands in the cluster, and 12 O non-metallic elements in the cluster
+sym_8_mc_7 has 4 metal elements of Co, 5 metal coordination number, 8 ligands in the cluster, and 16 O in the cluster containing non-metallic elements
+The metal element in sym_13_mc_12 is B, there are 12, the metal coordination number is 5, the nuclear cluster has 12 ligands, and the nuclear cluster contains 0 non-metallic elements
+The metal element in sym_16_mc_6 is B, there are 12, the metal coordination number is 5, the coordination of 6 ligands in the nuclear cluster, and the nuclear cluster contains non-metallic elements is 0
+
+Organic nodes include: sym_0_on_14 with SMILES of C1=CC=CC=C1, capable of connecting 6 edges.
+The SMILES of sym_3_on_0 is N, and two edges can be connected.
+The SMILES of sym_3_on_1 is set to C1=NC=NC=N1, which is capable of connecting three edges.
+The SMILES of sym_3_on_2 is C1=CC=CC=C1, which is capable of connecting three edges.
+The SMILES of sym_3_on_3 are C1=C(C=C(C=C1O[H])O[H])O[H], capable of connecting three edges.
+The SMILES of sym_3_on_4 is C1C=CC2=CC=CC3=C2C1=CC=C3, which can connect three edges.
+sym_3_on_5's SMILES are C12=C4C(=C3C(=C1C=NC2)CN=C3)CN=C4, capable of connecting three edges.
+The SMILES of sym_4_on_14 is Si and can connect two edges.
+The SMILES of sym_4_on_6 is set to C and is capable of connecting two edges.
+The SMILES of sym_4_on_7 is C1=CC2C=CC1C=C2 and is capable of connecting four edges.
+The SMILES of sym_4_on_8 is C1=CC=C(C=C1)C2=CC=CC=C2, capable of connecting four edges.
+The SMILES of sym_5_on_10 is C1=CC=C(C=C1)C2=CC=CC=C2, capable of connecting four edges.
+The SMILES of sym_5_on_11 is C1=CC2=C3C(=C1)C=CC4=CC=CC(=C43)C=C2, capable of connecting four edges.
+The SMILES of sym_5_on_12 is C1=CC3=NC1CC5=CC=C(CC2C=CC(=N2))CC4=CC=C(C3)[N]4)[N]5, capable of connecting four edges.
+The SMILES of sym_5_on_13 is C1=CC=C(C=C1)C(=C(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4, capable of connecting four edges.
+The SMILES of sym_5_on_9 is C1=CC=CC=C1 and is capable of connecting four edges.
+
+Organic edges include: L_1's SMILES are N=N.
+The SMILES of L_10 is C1CC2=CC=CC=C21.
+The SMILES of L_11 is C1=CC2C=CC1C=C2.
+The SMILES of L_12 is C1=CC=CC=C1.
+The SMILES of L_13 is C1=NN=CN=N1.
+The SMILES of L_14 is C=CC=C.
+The SMILES of L_15 is C=CC=C.
+The SMILES of L_16 is C#CC#C.
+The SMILES of L_17 is C1=CC=CC2=C1C=CC=C2.
+The SMILES of L_18 is C1=CN=C2C(=N1)N=CC=N2.
+The SMILES of L_19 is C#CC1=CC=CC=C1.
+The SMILES of L_2 is C=C.
+The SMILES of L_20 is C#CC1=CC=CC=C1.
+The SMILES of L_21 is C1=CC=C2C(=C1)C3=CC=CC=C3O2.
+The SMILES of L_22 is C1=CC2=C3C(=C1)C=CC4=CC=CC(=C43)C=C2.
+The SMILES of L_23 is C1=CC2=C(C=C1)C3=C(C=C2)C=CC=C3.
+The SMILES of L_24 is C1=CC=C(C=C1)C2=CC=CC=C2.
+The SMILES of L_25 is C1=CC=NC(=C1)C2=NC=CC=C2.
+The SMILES of L_26 is C2=NN=C(C1=NN=CN=N1)N=N2.
+The SMILES of L_27 is C#CC#C #.
+The SMILES of L_28 is C1=CC=CC2=C1C=C3C(=C2)C=CC=C3.
+The SMILES of L_29 is CCC1=CC=C(C=C1)CC.
+The SMILES of L_3 is C#C.
+The SMILES of L_30 is CCC1=NN=C(N=N1)CC.
+The SMILES of L_31 is C#CC1=C2C=CC=CC2=C(C3=CC=CC=C31)C#C.
+The SMILES of L_32 is C12(C3C4C1C5C2C3C45C#C)C#C.
+The SMILES of L_33 is C1=CC2(C=CC1(C=C2)CC)C#C.
+The SMILES of L_34 is C#CC1=CC=C(C=C1)C#C.
+L_35's SMILES is C1(=NN=C(C#C)N=N1)C#C.
+The SMILES of L_36 is C1=CC=C2C(=C1)C3=C(C=C2)C4=C(C=C3)C=CC=C4.
+The SMILES of L_37 is C1=CC=CC(=C1)C#CC#C.
+The SMILES of L_38 is C1=CC=CC(=C1)C#CC#C.
+The SMILES of L_39 is C1=CC=CC(=C1)C=CC2=CC=CC=C2.
+The SMILES of L_4 is C1=C[N]N=C1.
+The SMILES of L_40 is C1=CC=CC(=C1)N=NC2=CC=CC=C2.
+L_41's SMILES are C1=CC=CC(=C1)C#CC2=CC=CC=C2.
+The SMILES of L_42 is C2=NN=C(C#CC1=NN=CN=N1)N=N2.
+The SMILES of L_43 is C1=CC=CC(=C1)C2=CC=C(C=C2)C3=CC=CC=C3.
+The SMILES of L_44 is C1=CC=C(C=C1)C2=NN=C(N=N2)C3=CC=CC=C3.
+The SMILES of L_45 is C3=NN=C(C2=NN=C(C1=NN=CN=N1)N=N2)N=N3.
+The SMILES of L_46 is C1=CC=C(C=C1)C# CC2=CC=CC=C2.
+The SMILES of L_47 is C#CC1=CC=C(C=C1)C2=CC=C(C=C2)C#C.
+The SMILES of L_5 is C1=COC=C1.
+The SMILES of L_6 is C1=CN=N[N]1.
+The SMILES of L_7 is C12C3C4C1C5C2C3C45.
+The SMILES of L_8 is C1=CC=CC2=C1C=CC=C2.
+The SMILES of L_9 is C1=NN=CC2=C1C=CC=C2.
+
+Listing 2: Assembled MOFs and their performance
