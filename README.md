@@ -11,10 +11,10 @@ We present **MOFs-LLM**, the first vertical LLM for metal-organic frameworks tha
 ## Methodology
 ### Training Pipeline
 <img src="https://github.com/cgarls/MOFs-LLM/raw/main/Pictures/Flow%20chart.png" width="60%" style="display: block; margin: 0 auto;" alt="MOFs-LLM training workflow: Post-pretraining → Supervised Fine-Tuning → Inverse Design → Experimental Validation">
-- ​**Domain-Specialized LLM**: 210M-token corpus integrating structural descriptions, MOFs papers, and Materials and chemical data
+
+- ​**Domain-Specialized LLM**: 210M-token corpus integrating structural descriptions, MOFs papers, and materials/chemical data
 - ​**Accurate Prediction**: Achieves 94.8% prediction accuracy for hydrogen storage 
 - ​**Reverse Design & Experimental Validation**: Successfully synthesized Cu-LLMs-1 with 1.33 wt% room-temperature hydrogen adsorption (top 5 among pure MOFs)
-
 
 ## From Virtual to Reality
 <img src="https://github.com/cgarls/MOFs-LLM/raw/main/Pictures/Graphic%20summary.png" width="60%" style="display: block; margin: 0 auto;" alt="MOFs-LLM research breakthrough: Bridging computational design to experimental synthesis">
