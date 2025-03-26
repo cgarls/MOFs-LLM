@@ -1,5 +1,5 @@
 # MOFs-LLM: Bridging Virtual to Real through Inverse Design of MOFs for Hydrogen Storage
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 📌 Core Innovation
 We present **MOFs-LLM**, the first vertical LLM for metal-organic frameworks that:
