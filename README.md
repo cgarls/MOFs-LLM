@@ -1,4 +1,4 @@
-# MOFs-LLM: Bridging Virtual to Real: Reverse Design of MOFs for Hydrogen Storage
+# MOFs-LLM: Bridging Virtual to Real through Reverse Design of MOFs for Hydrogen Storage
 
 <img src="https://github.com/cgarls/MOFs-LLM/raw/main/Pictures/Graphic%20summary.png" width="60%" style="display: block; margin: 0 auto;" alt="MOFs-LLM research breakthrough: Bridging computational design to experimental synthesis">
 
