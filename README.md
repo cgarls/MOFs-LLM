@@ -1,5 +1,6 @@
 # MOFs-LLM: Bridging Virtual to Real through Inverse Design of MOFs for Hydrogen Storage
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 <img src="https://github.com/cgarls/MOFs-LLM/raw/main/Pictures/Graphic%20summary.png" width="60%" style="display: block; margin: 0 auto;" alt="MOFs-LLM research breakthrough: Bridging computational design to experimental synthesis">
 
 ## Repository Structure
