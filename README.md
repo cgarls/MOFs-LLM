@@ -16,8 +16,22 @@ We present **MOFs-LLM**, the first vertical LLM for metal-organic frameworks tha
 - ​**Accurate Prediction**: Achieves 94.8% prediction accuracy for hydrogen storage 
 - ​**Reverse Design & Experimental Validation**: Successfully synthesized Cu-LLMs-1 with 1.33 wt% room-temperature hydrogen adsorption (top 5 among pure MOFs)
 
+## Repository Structure
+```
+├── data/                 # Corpus dataset and preprocessing scripts
+├── notebooks/            # Jupyter notebooks for data analysis and visualization
+├── Pictures/              # Performance metrics and analysis outputs
+├── README.md             # Project documentation
+```
+
 ## From Virtual to Reality
 <img src="https://github.com/cgarls/MOFs-LLM/raw/main/Pictures/Graphic%20summary.png" width="60%" style="display: block; margin: 0 auto;" alt="MOFs-LLM research breakthrough: Bridging computational design to experimental synthesis">
+
+## Dataset Sources
+The chemical and materials domain corpus was augmented with these high-quality datasets:
+
+[![peS2o](https://img.shields.io/badge/Dataset-peS2o-blue)](https://huggingface.co/datasets/allenai/peS2o)  
+[![ChemSum](https://img.shields.io/badge/Dataset-ChemSum-green)](https://huggingface.co/datasets/griffin/ChemSum)  
 
 ## Citation
 If you use this code, please cite our work:
