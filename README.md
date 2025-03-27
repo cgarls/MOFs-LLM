@@ -11,7 +11,6 @@
 ```
 
 ## Methodology
-### Training Pipeline
 <img src="https://github.com/cgarls/MOFs-LLM/raw/main/Pictures/Flow%20chart.png" width="60%" style="display: block; margin: 0 auto;" alt="MOFs-LLM training workflow: Post-pretraining → Supervised Fine-Tuning → Inverse Design → Experimental Validation">
 
 - ​**Domain-Specialized LLM**: 210M-token corpus integrating structural descriptions, MOFs papers, and materials/chemical data
