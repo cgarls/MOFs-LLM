@@ -25,7 +25,7 @@ We present **MOFs-LLM**, the first vertical LLM for metal-organic frameworks tha
 3. **Designs** synthesizable MOF structures through reverse design
 4. **Guides** experimental synthesis with actionable recommendations
 
-## Dataset Sources
+## 📌 Dataset Sources
 The chemical and materials domain corpus was augmented with these high-quality datasets:
 
 [![peS2o](https://img.shields.io/badge/Dataset-peS2o-blue)](https://huggingface.co/datasets/allenai/peS2o)  
@@ -43,5 +43,5 @@ If you use this code, please cite our work:
 }
 ```
 
-## License [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-This project is licensed under the MIT License.
+## License 
+This project is licensed under the MIT License.[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
